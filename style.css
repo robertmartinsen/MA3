@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: typograph pro;
+    background: cornsilk;
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(70%, -560%);
+    background: rgb(48, 119, 143);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 230px;
+   }
+   .search-btn{
+    color: rgb(48, 119, 143);
+    transform: translate(15%, -65%);
+    float:right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(48, 119, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .fas{
+       color: rgb(255, 255, 255);
+       transform: translate(1200%, -80%);
+   }
+   .search-txt{
+       border: none;
+       background: none;
+       outline: none;
+       float: left;
+       padding: 0;
+       color: white;
+       font-size: 14px;
+       width: 200px;
+   }
+   .logo img{
+       width: 150px;
+       transform: translate(-1068%, 115%);
+       float: left;
+       padding-left: 5%;
+       padding-top: 2%;
+   }
+nav{
+    background:rgb(62, 143, 170);
+    height: 200px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 500px;
+    
+}
+nav ul li {
+    display:inline-block;
+    line-height: 300px;
+    margin: 0 5px;
+}
+    a.active,a:hover{
+background: rgb(48, 119, 143);
+transition: 0.5s;
+    }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 7px;
+}
+.fa-user{
+    color: white;
+    transform: translate(-6250%, 685%);
+    font-size: 20px;
+}
+.fa-heart{
+    color: white;
+    transform: translate(-5525%, 685%);
+    font-size: 20px;
+}
+.fa-shopping-bag{
+    color: white;
+    transform: translate(-6370%, 685%);
+    font-size: 20px;
+}
+.footer{
+    width: 100vw;
+    height: 50px;
+    transform: translate(0%,720%);
+    overflow: hidden;
+    padding: 50px 50;
+    box-sizing: border-box;
+    background-color:rgb(48, 119, 143);
+    
+}
+.footer nav ul li{
+    font-family: typograph pro;
+    font-size: 5px;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 20px;
+    transform: translate(-70%,-42%);
+}
